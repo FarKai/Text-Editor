@@ -1,0 +1,16 @@
+﻿<Window x:Class="Text_Editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Text_Editor"
+        mc:Ignorable="d"
+        Title="Text Editor" Height="700" Width="1150">
+    <Grid>
+        <Button Name="openTextFile" Click="openFileBtn_Click" Content="Open Text File" Margin="100,101,943,545"/>
+        <Button Name="saveTextFile" Click="saveFileBtn_Click" Content="Save Text File" Margin="100,172,943,474"/>
+        <Button Name="deleteTextFile" Click="deleteFileBtn_Click" Content="Delete Text File" Margin="100,252,943,394"/>
+        <TextBox Name="fileSpaceBox" BorderBrush="Black" BorderThickness="1" VerticalScrollBarVisibility="Auto" FontSize="12" KeyDown="fileSpaceBox_KeyDown" TextWrapping="Wrap" Text="TextBox" Margin="266,101,49,80"/>
+        <TextBlock Name="fileNameBlock" Background="LightGray" TextWrapping="Wrap" Text="TextBlock" Margin="100,49,49,605"/>
+    </Grid>
+</Window>
