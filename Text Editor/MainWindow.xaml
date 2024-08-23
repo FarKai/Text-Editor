@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Text Editor" Height="700" Width="1150">
     <Grid>
-        <Button Name="openTextFile" Click="openFileBtn_Click" Content="Open Text File" Margin="100,101,943,545"/>
-        <Button Name="saveTextFile" Click="saveFileBtn_Click" Content="Save Text File" Margin="100,172,943,474"/>
-        <Button Name="deleteTextFile" Click="deleteFileBtn_Click" Content="Delete Text File" Margin="100,252,943,394"/>
-        <TextBox Name="fileSpaceBox" BorderBrush="Black" BorderThickness="1" VerticalScrollBarVisibility="Auto" FontSize="12" KeyDown="fileSpaceBox_KeyDown" TextWrapping="Wrap" Text="TextBox" Margin="266,101,49,80"/>
-        <TextBlock Name="fileNameBlock" Background="LightGray" TextWrapping="Wrap" Text="TextBlock" Margin="100,49,49,605"/>
+        <Button Name="openTextFile" Click="openFileBtn_Click" Content="Open Text File" Margin="108,101,937,513"/>
+        <Button Name="saveTextFile" Click="saveFileBtn_Click" Content="Save Text File" Margin="994,556,49,59"/>
+        <Button Name="translateTextFile" Click="translateFileBtn_Click" Content="Translate Text File" Margin="857,556,182,59"/>
+        <TextBox Name="fileSpaceBox" BorderBrush="Black" BorderThickness="1" VerticalScrollBarVisibility="Auto" FontSize="12" KeyDown="fileSpaceBox_KeyDown" TextWrapping="Wrap" Text="TextBox" Margin="266,101,49,154"/>
+        <TextBlock Name="fileNameBlock" Background="LightGray" TextWrapping="Wrap" Text="TextBlock" Margin="100,19,49,605"/>
     </Grid>
 </Window>
